@@ -7,7 +7,7 @@ import Connection from "./database/db.js";
 import router from "./routes/route.js";
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 dotenv.config();
 app.use(cors());
