@@ -8,6 +8,7 @@ import router from "./routes/route.js";
 
 const app = express();
 const PORT = process.env.PORT || 8000;
+//hello..
 
 dotenv.config();
 app.use(cors());
